@@ -1,0 +1,9 @@
+dist 
+coverage
+node_modules
+.eslint.json
+.eslintignore
+.prettierignore
+.prettierrc.json
+package.json
+package.lock.json

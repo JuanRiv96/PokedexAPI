@@ -1,0 +1,9 @@
+export { getAllPokemons } from './controllerGetAll';
+export { getInfoApi } from './controllerApiAll';
+export { getInfoDB } from './controllerDbAll';
+export { pokemonApiByName } from './controllerApiByName';
+export { pokemonDbByName } from './controllerDBName';
+export { pokemonDetailDB } from './controllerDbID';
+export { pokemonDetailApi } from './controllerApiID';
+export { getTypes } from './controllerTypes';
+export { createPokemon } from './controllerCreate';
