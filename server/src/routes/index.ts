@@ -18,7 +18,6 @@ router.get(
       throw new SearchError('Pokemon not Found', 400);
     } else {
       const allPokemons = await getAllPokemons();
-      console.log(allPokemons);
       return response(res, 200, allPokemons);
     }
   })
